@@ -14,10 +14,6 @@ import java.util.Random;
 
 public class PostRequest {
 
-    public static double value;
-
-    public static boolean rains;
-
     public static void postRequest() throws JsonProcessingException {
 
         RestTemplate restTemplate = new RestTemplate();
